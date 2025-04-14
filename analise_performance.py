@@ -159,7 +159,10 @@ dados_detalhados = pd.DataFrame([
 dados_detalhados['Total de Backlinks'] = dados_detalhados['Total de Backlinks'].apply(formatar_numero)
 
 # Exibindo tabela comparativa com formatação brasileira
-st.dataframe(dados_detalhados.style.background_gradient(cmap='Blues'))
+try:
+    st.dataframe(dados_detalhados.style.background_gradient(cmap='Blues'))
+except:
+    st.dataframe(dados_detalhados)
 
 st.write("""
 ### Análise dos Dados de Autoridade
