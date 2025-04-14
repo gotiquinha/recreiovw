@@ -136,8 +136,10 @@ coloca um link para a Recreio VW, isso é um backlink. Eles são importantes por
 
 ### Como medimos a Autoridade?
 A autoridade é medida considerando dois fatores principais encontrados nos relatórios:
-1. **Número total de backlinks**: quantidade total de links apontando para o site
-2. **Domínios de referência**: quantidade de sites diferentes que fazem links para o site (quanto mais diversificado, melhor)
+1. **Número total de backlinks**: quantidade total de links apontando para o site, independente da origem. Por exemplo, se um mesmo blog faz 10 links diferentes para o site da Recreio VW, isso conta como 10 backlinks.
+2. **Domínios de referência**: quantidade de sites diferentes que fazem links para o site. Por exemplo, se um blog faz 10 links diferentes, isso conta como apenas 1 domínio de referência. Quanto mais sites diferentes linkarem para você, melhor.
+
+A diferença é importante porque ter muitos backlinks de poucos sites é menos valioso do que ter backlinks de muitos sites diferentes.
 """)
 
 # Adicionando informações detalhadas sobre backlinks
